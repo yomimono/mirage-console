@@ -1,8 +1,8 @@
 ### 2.2.0 (2016-12-21)
 
-* Import `V1.CONSOLE` from `mirage-types` into `Mirage_console.S` and create
+* Import `Mirage_types.CONSOLE` from `mirage-types` into `Mirage_console.S` and create
   a new `mirage-console` opam package (@samoht)
-- Import `V1_LWT.CONSOLE` from `mirage-types-lwt` into `Mirage_console_lwt.S`
+- Import `Mirage_types_lwt.CONSOLE` from `mirage-types-lwt` into `Mirage_console_lwt.S`
   and create a new `mirage-console-lwt` opam package (@samoht)
 
 ### 2.1.3 (2015-03-08-03)
@@ -58,5 +58,5 @@
 
 * Install separate libraries for `mirage-console-unix` and `mirage-console-xen`.
 * Update library dependencies for mirage-types-0.3.0
-* Adapt to V1.CONSOLE interface.
+* Adapt to Mirage_types.CONSOLE interface.
 * Initial public release, based on mirage/mirage-platform#0.9.8
